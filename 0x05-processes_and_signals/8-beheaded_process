@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Klls d prcss 7-hghldr
+
+pkill -f -SIGKILL 7-highlander
+

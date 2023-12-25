@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Dsplys a lst of crrtly rnng prcsss contng d bsh kywrd
+# shll chck dsbl=SC2009
+
+ps -aux | grep bash
+

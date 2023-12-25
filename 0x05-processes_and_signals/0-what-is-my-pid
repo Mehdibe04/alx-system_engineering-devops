@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Dsplys its own PID
+
+echo $$

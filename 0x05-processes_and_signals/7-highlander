@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Dsplys "To infnty & byd" indfntly with a slp to in btwn each itrtion
+# Dsplys "I am invincible!!!" in btwn each itrtion
+
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+  trap 'echo "I am invincible!!!"' SIGTERM 
+done
+

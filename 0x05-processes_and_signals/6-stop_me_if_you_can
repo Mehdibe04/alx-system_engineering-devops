@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Klls d 4-2_infnty_&_byd prcss
+
+pkill -f 4-to_infinity_and_beyond 
+

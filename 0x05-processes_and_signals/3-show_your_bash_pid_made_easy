@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This scrpt dsplys d PID, alg with prcss name of prcsss ctng d wrd bsh
+
+pgrep -l bash
+

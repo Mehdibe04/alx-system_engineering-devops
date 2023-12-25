@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This scrpt dsplys a lst of crrtly running prcsss in a user orientd frmt
+# Use d ps cmmd 2 lst all prcsss.. shwg user ortd info
+
+ps aux --forest | head -50
+

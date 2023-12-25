@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Dsplys "To infnty & beyond" indfntly with
+# a sleep to in btwn each itrtion
+
+while true
+do
+  echo "To infinity and beyond"
+  sleep 2
+done
+

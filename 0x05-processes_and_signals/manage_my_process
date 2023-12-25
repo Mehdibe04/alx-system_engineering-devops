@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Indfntly wrts "I am alive" to the file /tmp/my_process
+# Pauses 2 secs in btwn each msg
+
+while true
+do
+  echo "I am alive!" >> /tmp/my_process
+  sleep 2
+done
+
