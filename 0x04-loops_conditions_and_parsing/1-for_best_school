@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# This script is displyg "Best School" ten times
+# Use a 'for' loop to repeat d sentence ten times
+
+for ((x = 0; x < 10; x++)); do
+    echo "Best School"
+done
+

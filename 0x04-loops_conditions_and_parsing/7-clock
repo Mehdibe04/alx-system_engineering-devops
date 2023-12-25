@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Displys d time for twelve hours and fifty-nine mins
+# Displys h from zero 2 twelve
+# Displys min from one 2 fifty-nine
+
+hr=0
+while [ $hr -le 12 ]
+do
+  echo "Hour: $hr"
+  min=1
+  while [ $min -le 59 ]
+  do
+    echo "$min"
+    (( min++ ))
+  done
+  (( hr++ ))
+done
+

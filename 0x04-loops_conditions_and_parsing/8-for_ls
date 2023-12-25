@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Dsplys d contts of the currt dir in lst format
+# Dspldys only d prt of d name after d 1st '-'
+
+lst=$(ls)
+for x in $lst; do
+  echo "$x" | cut -d '-' -f2
+done
+

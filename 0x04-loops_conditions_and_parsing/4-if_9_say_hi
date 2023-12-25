@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Displys "Best School" ten times usg a 'for' loop except the 9th time where it displays the word 'Hi'
+
+count=1
+
+while [ $count -le 10 ]
+do
+    if [ $count -eq 9 ]; then
+        echo "Best School"
+        echo "Hi"
+    else
+        echo "Best School"
+    fi
+    count=$((counter + 1))
+done
+

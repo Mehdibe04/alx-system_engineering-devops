@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Parses Apache lg f sin lst frmt
+# Dsplys d IP & HTTP stts code
+
+awk '{print $1 " " $9}' apache-access.log
+

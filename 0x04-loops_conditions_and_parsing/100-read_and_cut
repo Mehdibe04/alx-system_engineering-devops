@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Dsplys d contts of d f "/etc/passwrd"
+# d user, user_id, and user homee dir path
+
+while read -r passwd; do
+  echo "$passwd" | cut -d ':' -f1,3,6
+done < "/etc/passwd"
+

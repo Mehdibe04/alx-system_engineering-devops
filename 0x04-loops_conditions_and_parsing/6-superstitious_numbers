@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# Displays numbers from 1 2 20 in addtion TO the following sentences :
+# "bad luck from China" in d fourth iteration
+# "bad luck from Japan" in d nineth iteration
+# "bad luck from Italy" in d seventheenth iteration
+
+count=1
+while [ $count -le 20 ]
+do
+  echo "$count"
+  case $count in
+    "4") echo "bad luck from China";;
+    "9") echo "bad luck from Japan";;
+    "17") echo "bad luck from Italy";;
+  esac
+  (( count++ ))
+done
+

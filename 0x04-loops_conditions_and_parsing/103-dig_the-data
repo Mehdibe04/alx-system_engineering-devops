@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Parses Apache lg f in lst frmt
+# Grps vstrs by IP & HTTP stts code
+# Dsplys the num of occrrcs, IP, and HTTP stts
+# code of each lg, in srtd ordr
+
+awk '{ print $1 " " $9}' apache-access.log | sort | uniq -c | sort -rn
+
